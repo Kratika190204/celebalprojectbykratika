@@ -45,7 +45,7 @@ graph TD
     E -->|feedback| I
     F -->|docs| Project_Report.docx
     B -->|visuals| G
-```
+```mermaid
 
 ---
 
