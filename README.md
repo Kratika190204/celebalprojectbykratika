@@ -34,16 +34,16 @@ This platform enables businesses to:
 
 ```mermaid
 graph TD
-    A[User Interface (Streamlit)] -->|inputs| B[app.py]
-    B --> C[clv_model.py]
-    B --> D[utils.py]
-    B --> E[feedback_manager.py]
-    B --> F[documentation_handler.py]
-    B --> G[styles.css]
-    C -->|model| H[clv_model.joblib]
-    D -->|data| I[data/]
+    A[User Interface Streamlit] -->|inputs| B[app_py]
+    B --> C[clv_model_py]
+    B --> D[utils_py]
+    B --> E[feedback_manager_py]
+    B --> F[documentation_handler_py]
+    B --> G[styles_css]
+    C -->|model| H[clv_model_joblib]
+    D -->|data| I[data_folder]
     E -->|feedback| I
-    F -->|docs| Project_Report.docx
+    F -->|docs| J[Project_Report_docx]
     B -->|visuals| G
 ```mermaid
 
